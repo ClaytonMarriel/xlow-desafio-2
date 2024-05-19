@@ -76,6 +76,7 @@ const Slider = () => {
           </div>
         ))}
       </div>
+
       <button className="next" onClick={nextSlide}>❯</button>
       <div className="navigation">
         {imagesSlide.map((_, index) => (
